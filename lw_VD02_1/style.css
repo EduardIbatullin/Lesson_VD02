@@ -1,0 +1,15 @@
+p {
+    background: aqua;
+}
+
+#test {
+    background: blue;
+}
+
+.text {
+    font-size: 34px;
+    font-family: Snell Roundhand, cursive;
+    background: green;
+    font-weight: 100;
+    width: 50%;
+}

@@ -1,0 +1,54 @@
+:root {
+   --gap-h: 10px;
+   --gap-v: 20px;
+   --columns: 3;
+}
+
+.card {
+   display: inline-block;
+   padding: 0 calc(var(--gap-h)/3) var(--gap-v);
+   vertical-align: top;
+   width: calc(100%/var(--columns) - var(--gap-h));
+   height: 500px;
+   background-color: burlywood;
+   border-radius: 20px;
+   transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+   background-color: aqua;
+   transform: scale(1.05);
+}
+
+.photo {
+   height: 50%;
+   padding-top: 10px;
+}
+
+.fio {
+   padding-top: 5px;
+   padding-bottom: 10px;
+   height: 15%;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Arial', sans-serif;
+   font-weight: bold;
+   font-style: italic;
+}
+
+.info {
+   padding-top: 10px;
+   padding-left: 10px;
+   height: 35%;
+   font-size: 15px;
+   font-family: 'Arial', sans-serif;
+   font-weight: bold;
+
+}
+
+img {
+   display: block;
+   margin: 0 auto;
+   border-radius: 20px;
+   height: 100%;
+}
